@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('mi_app/',include('mi_app.urls'))
     # agrega una ruta para conectar tu aplicación mi_app.
 ]
